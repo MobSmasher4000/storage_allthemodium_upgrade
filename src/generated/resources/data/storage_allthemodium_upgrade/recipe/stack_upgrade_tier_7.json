@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "S": {
+      "item": "storage_allthemodium_upgrade:stack_upgrade_tier_6"
+    },
+    "V": {
+      "item": "allthemodium:vibranium_block"
+    }
+  },
+  "pattern": [
+    "VVV",
+    "VSV",
+    "VVV"
+  ],
+  "result": {
+    "count": 1,
+    "id": "storage_allthemodium_upgrade:stack_upgrade_tier_7"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "allthemodium:allthemodium_block"
+    },
+    "S": {
+      "item": "sophisticatedstorage:stack_upgrade_tier_5"
+    }
+  },
+  "pattern": [
+    "AAA",
+    "ASA",
+    "AAA"
+  ],
+  "result": {
+    "count": 1,
+    "id": "storage_allthemodium_upgrade:stack_upgrade_tier_6"
+  }
+}

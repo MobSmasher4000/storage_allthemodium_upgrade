@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "storage_allthemodium_upgrade:stack_upgrade_tier_7"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_vibranium_block": {
+      "conditions": {
+        "items": [
+          {
+            "items": "allthemodium:vibranium_block"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_vibranium_block"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "storage_allthemodium_upgrade:stack_upgrade_tier_7"
+    ]
+  }
+}
