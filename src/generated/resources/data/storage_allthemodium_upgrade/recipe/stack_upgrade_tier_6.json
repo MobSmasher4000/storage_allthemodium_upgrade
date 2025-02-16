@@ -2,17 +2,20 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "A": {
+    "B": {
       "item": "allthemodium:allthemodium_block"
+    },
+    "I": {
+      "item": "allthemodium:allthemodium_ingot"
     },
     "S": {
       "item": "sophisticatedstorage:stack_upgrade_tier_5"
     }
   },
   "pattern": [
-    "AAA",
-    "ASA",
-    "AAA"
+    "III",
+    "ISI",
+    "BIB"
   ],
   "result": {
     "count": 1,

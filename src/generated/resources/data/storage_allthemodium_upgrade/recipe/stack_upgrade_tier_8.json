@@ -2,17 +2,20 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
+    "B": {
+      "item": "allthemodium:unobtainium_block"
+    },
+    "I": {
+      "item": "allthemodium:unobtainium_ingot"
+    },
     "S": {
       "item": "storage_allthemodium_upgrade:stack_upgrade_tier_7"
-    },
-    "U": {
-      "item": "allthemodium:unobtainium_block"
     }
   },
   "pattern": [
-    "UUU",
-    "USU",
-    "UUU"
+    "III",
+    "ISI",
+    "BIB"
   ],
   "result": {
     "count": 1,

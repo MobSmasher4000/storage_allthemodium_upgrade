@@ -2,17 +2,20 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
+    "B": {
+      "item": "allthemodium:vibranium_block"
+    },
+    "I": {
+      "item": "allthemodium:vibranium_ingot"
+    },
     "S": {
       "item": "storage_allthemodium_upgrade:stack_upgrade_tier_6"
-    },
-    "V": {
-      "item": "allthemodium:vibranium_block"
     }
   },
   "pattern": [
-    "VVV",
-    "VSV",
-    "VVV"
+    "III",
+    "ISI",
+    "BIB"
   ],
   "result": {
     "count": 1,

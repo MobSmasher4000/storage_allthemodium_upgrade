@@ -1,11 +1,10 @@
-package org.zombie.storage_allthemodium_upgrade;
+package org.mob.storage_allthemodium_upgrade;
 
 import com.mojang.logging.LogUtils;
 import net.minecraft.client.Minecraft;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
-import net.minecraft.world.item.CreativeModeTabs;
 import net.neoforged.api.distmarker.Dist;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.bus.api.SubscribeEvent;
@@ -19,7 +18,7 @@ import net.neoforged.neoforge.event.server.ServerStartingEvent;
 import net.neoforged.neoforge.registries.DeferredHolder;
 import net.neoforged.neoforge.registries.DeferredRegister;
 import org.slf4j.Logger;
-import org.zombie.storage_allthemodium_upgrade.item.ModItems;
+import org.mob.storage_allthemodium_upgrade.item.ModItems;
 
 // The value here should match an entry in the META-INF/neoforge.mods.toml file
 @Mod(Storage_allthemodium_upgrade.MODID)
